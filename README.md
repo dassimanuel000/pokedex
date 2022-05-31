@@ -21,6 +21,14 @@
 	- Interface listes de Pokemon
 	- Interface Crud
 
+
+## DIFFILCULTES RENCONTREES
+
+    Le langage REACT JS
+    LE TYPE SCRIPT
+    npm car j'ai perdu enormément de temps sur la documentation v18.1 de react pourtant je n'avais pas la bonne
+
+
 ## Bonus 
 
 
