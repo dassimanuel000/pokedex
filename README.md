@@ -19,7 +19,7 @@
 #### !Front-end :
 	- Lien redirigeant vers Le Pokedex
 	- Interface listes de Pokemon
-	- Interface Crud
+	- Interface Crud - BOOSTRAP CMS INTEGRÉE
 
 
 ## DIFFILCULTES RENCONTREES
