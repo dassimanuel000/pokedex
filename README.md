@@ -1,70 +1,109 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Projet REACT JS POKEDEX ![Codacy Badge](https://api.codacy.com/project/badge/Grade/fee135b883c44376975a0681b816f686)
 
-## Available Scripts
+<img src="./public/assets/pok.png"/>
 
-In the project directory, you can run:
+## Membres
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+	Manuel DASSI KUETI
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Fonctionnalités rendus
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### ! Back-end :
 
-### `npm run build`
+	-Gestion des pokemons
+	-Gestion des essais et tests
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### !Front-end :
+	- Lien redirigeant vers Le Pokedex
+	- Interface listes de Pokemon
+	- Interface Crud
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Bonus 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+<hr/>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Requirements
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [x] Mongo execute Prompt / Bash
+- [x] Node Module 
+- [x] React JS
+- [x] mongod --port 27017 --dbpath /path
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Installation
 
-## Learn More
+    
+    git clone https://github.com/dassimanuel000/pokedex.git
+    cd pokedex
+    npm install
+    npm start ||  nodemon index
+    
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Good practice
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Please create your `*.env` and source files in an appropriate directory
+(it may already exist)
+* Always make your path is relative to root directory and thus run `landslide`
+from it
+* If applicable, update `index.js` with the link to you new slides
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+!!  Next, just run:
 
-### Analyzing the Bundle Size
+	  localhost:3000
+    
+       
+## Publishing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Presentation are served under 
+    npm build 
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Structure
 
-### Advanced Configuration
+    ├── node   Module   --> symbolic link to module
+    ├── src             --> root
+    │   ├── components  --> Widget Folder directory
+    │   ├── App         --> Edit React application
+    │   ├── Index       --> Init React application
+    │   ├── data        --> React application
+    │   │   └── js      --> Json Pokedex
+    ├── publics         --> Github  readmme
+    │   ├── img         --> Assets  for readmme
+    │   ├── assets      --> Assets
+    │   ├── index       --> home page, not generated
+    │   └── *.html      --> presentation files
+    └── *               --> any other directory containing *.env files
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## 🛠️ Our favorite tools
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### 👨‍💻 Programming languages
 
-### `npm run build` fails to minify
+<p>
+    <a href="https://github.com/search?q=user%3ADenverCoder1+is%3Arepo+language%3Acss"><img alt="CSS" src="https://img.shields.io/badge/CSS%20-%231572B6.svg?logo=css3&logoColor=white"></a>
+    <a href="https://github.com/search?q=user%3ADenverCoder1+is%3Arepo+language%3Ahtml"><img alt="HTML" src="https://img.shields.io/badge/HTML%20-%23E34F26.svg?logo=html5&logoColor=white"></a>
+    <a href="https://github.com/search?q=user%3ADenverCoder1+is%3Arepo+language%3Ajavascript"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?logo=javascript&logoColor=black"></a>
+    
+### 🧰 Frameworks and libraries
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p>	
+    <a href="#"><img alt="Express JS" src="https://img.shields.io/badge/express.svg?logo=express&logoColor=%2361DAFB"></a>
+    <a href="#"><img alt="React" src="https://img.shields.io/badge/React%20-%2320232a.svg?logo=react&logoColor=%2361DAFB"></a>
+</p>
+
+### 🗄️ Databases and cloud hosting
+
+<p>
+    <a href="#"><img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-%23327FC7.svg?logo=github&logoColor=white"></a>
+    <a href="#"><img alt="MongoDB" src ="https://img.shields.io/badge/MongoDB-%234ea94b.svg?logo=mongodb&logoColor=white"></a>
+</p> 
+
+
+## Notes
+
+https://www.estiam.education/charte-graphique/
