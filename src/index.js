@@ -11,10 +11,10 @@ import {
 } from "react-router-dom"; 
 
 
-import SinglePokemon from './components/SinglePokemon'; 
+import SinglePokemon from './components/singlePokemon'; 
 import Contact from './components/contact';
 import Lists from './components/lists';
-import AddPokemen from './components/AddPokemen' 
+import AddPokemen from './components/addPokemon' 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
